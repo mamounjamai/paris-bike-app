@@ -19,11 +19,11 @@ This project demonstrates how to combine **data science**, **Streamlit** for vis
 
 ##  Features
 
-- 📊 **Time-series plots** of bike usage.
-- 🗺️ **Geographic filtering** by station/arrondissement.
-- 🔥 **Heatmap visualization** for traffic intensity.
-- ✅ **Unit tests** for data loading and filtering functions.
-- 🔄 **CI pipeline** with GitHub Actions to ensure code quality.
+-  **Time-series plots** of bike usage.
+-  **Geographic filtering** by station/arrondissement.
+-  **Heatmap visualization** for traffic intensity.
+-  **Unit tests** for data loading and filtering functions.
+-  **CI pipeline** with GitHub Actions to ensure code quality.
 
 ---
 
@@ -36,7 +36,7 @@ Example heatmap of bike traffic by day of week and hour of day:
 
 ---
 
-## ⚡ Installation
+##  Installation
 
 Clone the repository:
 
