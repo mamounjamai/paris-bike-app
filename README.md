@@ -5,7 +5,7 @@ This project is based on a dataset of bike counters across the city, enabling us
 
 ---
 
-## 📖 Description
+##  Description
 
 The Paris Bike App allows users to:
 - Visualize bike counts over time (daily, monthly, yearly).
@@ -17,7 +17,7 @@ This project demonstrates how to combine **data science**, **Streamlit** for vis
 
 ---
 
-## 🛠️ Features
+##  Features
 
 - 📊 **Time-series plots** of bike usage.
 - 🗺️ **Geographic filtering** by station/arrondissement.
@@ -27,7 +27,7 @@ This project demonstrates how to combine **data science**, **Streamlit** for vis
 
 ---
 
-## 🖼️ Visuals
+## Visuals
 
 Example heatmap of bike traffic by day of week and hour of day:
 
@@ -53,7 +53,7 @@ Run the Streamlit app:
 streamlit run app.py
 ```
 
-🐳 Run with Docker
+##  Run with Docker
 
 Build the image:
 
@@ -68,7 +68,7 @@ docker run -p 8501:8501 paris-bike-app
 Then open http://localhost:8501
  in your browser.
 
-🧪 Running Tests
+##  Running Tests
 
 This project uses pytest for testing.
 
@@ -85,15 +85,15 @@ Filtering functions.
 
 CI is set up with GitHub Actions to run tests automatically on each push.
 
-📌 Roadmap
+##  Roadmap
 
 Add predictive models for bike usage.
 
-Deploy the app online (Streamlit Cloud or Heroku).
+Deploy the app online.
 
 Extend visualizations with weather and traffic correlations.
 
-🙌 Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -103,11 +103,9 @@ Create a new branch.
 
 Commit your changes and open a pull request.
 
-👤 Authors and Acknowledgments
+##  Authors and Acknowledgments
 
 Developed by Mamoun Jamai
 
-📄 License
 
-This project is licensed under the MIT License – feel free to use and modify it.
 
