@@ -17,7 +17,7 @@ This project demonstrates how to combine **data science**, **Streamlit** for vis
 
 ---
 ## Project Structure
-
+```text
 paris-bike-app/
 ├── app/                # Streamlit app
 │   └── bike_app.py
@@ -29,7 +29,7 @@ paris-bike-app/
 ├── Dockerfile          # Containerization
 ├── .github/workflows/  # CI pipeline
 └── README.md
-
+```
 ---
 ##  Features
 
