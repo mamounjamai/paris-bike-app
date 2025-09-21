@@ -62,7 +62,11 @@ st.pyplot(fig, clear_figure=True)
 # Map
 st.subheader("🗺️ Station map")
 map_df = df_f[["latitude","longitude"]].dropna().drop_duplicates()
-st.map(map_df) if not map_df.empty else st.info("No coordinates after filtering.")
+if not map_df.empty:
+    st.map(map_df)
+else:
+    st.info("No coordinates after filtering.")
+
 
 # Raw preview
 if st.checkbox("Show raw data preview"):
