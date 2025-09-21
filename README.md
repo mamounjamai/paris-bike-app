@@ -16,7 +16,21 @@ The Paris Bike App allows users to:
 This project demonstrates how to combine **data science**, **Streamlit** for visualization, and **Docker** for reproducibility.
 
 ---
+## Project Structure
 
+paris-bike-app/
+├── app/                # Streamlit app
+│   └── bike_app.py
+├── src/                # Data processing functions
+│   ├── data_io.py
+│   └── filters.py
+├── tests/              # Unit tests
+├── requirements.txt    # Python dependencies
+├── Dockerfile          # Containerization
+├── .github/workflows/  # CI pipeline
+└── README.md
+
+---
 ##  Features
 
 -  **Time-series plots** of bike usage.
@@ -38,27 +52,23 @@ Example heatmap of bike traffic by day of week and hour of day:
 
 ##  Installation
 
-Clone the repository:
+Clone the repository and install dependencies:
 
 ```bash
 git clone https://github.com/mamounjamai/paris-bike-app.git
 cd paris-bike-app
-Install dependencies:
-
 pip install -r requirements.txt
-
-
-Run the Streamlit app:
-
-streamlit run app.py
 ```
+Run the Streamlit app (make sure to set PYTHONPATH):
 
+```bash
+PYTHONPATH=. streamlit run app/bike_app.py
+```
 ##  Run with Docker
 
 Build the image:
 
 docker build -t paris-bike-app .
-
 
 Run the container:
 
